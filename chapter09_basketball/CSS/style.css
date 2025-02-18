@@ -12,13 +12,13 @@
   box-sizing: border-box;
 }
 
-.div-shot-left {
+.div-shots-left {
   margin-top: 10px;
 }
 
 #shots-left {
   background-color: #000;
-  padding: 0px 2px 0px 2px;
+  padding: 4px 4px 2px;
 }
 
 .div-score {
@@ -47,6 +47,11 @@
   height: 30px;
 }
 
+button {
+  padding: 10px 20px;
+  font-size: 14px;
+}
+
 .div-panel {
   display: inline-block;
   margin: 10px;
@@ -58,4 +63,10 @@
   background-color: #525252;
   text-align: center;
   padding: 2px;
+  color: #fff;
+}
+
+.div-control-name {
+  font-size: 20px;
+  margin-bottom: 5px;
 }
